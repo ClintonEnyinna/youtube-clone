@@ -1,32 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c9ab3fc8e9.js" crossorigin="anonymous"></script>
     <title>Youtube Clone</title>
 </head>
+
 <body>
+
     <header>
-        <span class="hanburger"></span>
-        <h1> 
-            <span>
-                <img src="./img/youtube.svg" alt="Youtube Icon">
-            </span>Youtube</h1>
+
+        <div class="logo">
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <img class="youtubeIcon" src="./img/youtube.svg" alt="Youtube Icon">
+            <h1>Youtube</h1>
+
+        </div>
+
+        <div class="search-container">
+            <form action="#">
+                <input class="input" type="text" placeholder="Search">
+                <button class="formBtn" type="submit"><img class="search" src="./img/search.svg" alt=""></button>
+            </form>
+        </div>
+
         <nav>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><a href=""><img class="upload" src="img/upload.svg" alt=""></a></li>
+                <li><button class="signIn">Sign in</button></li>
             </ul>
         </nav>
     </header>
     <main>
+        <div class="left">
+            <iframe src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
 
+            <div class="video-title">
+                <h1>Contributing to Open Source Part I: The Easy Way</h1>
+            </div>
+            <div class="video-details">
+                <div>
+                    <img src="./img/channel-img.jpg">
+                    <div>
+                        <h4>The Odin Project</h4>
+                        <div class="subs">
+                            <button class="subscribe"><i
+                                    class="fab fa-youtube-square"></i>Subscribe</button><span>799</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="views">
+                    <span>237,229 views</span>
+                </div>
+            </div>
+            <hr>
+            <div class="video-icons">
+                <div class="video-icon-items">
+                    <div><i class="fas fa-plus"></i><span>Add to</span></div>
+                    <div><i class="fas fa-share"></i><span>Share</span></div>
+                    <div><i class="fas fa-ellipsis-h"></i><span>More</span></div>
+                </div>
+                <div class="video-icon-items">
+                    <div><i class="fas fa-thumbs-up"></i></i><span>359</span></div>
+                    <div><i class="fas fa-thumbs-down"></i></i><span>14</span></div>
+                </div>
+            </div>
+            <div class="description">
+                <h4>Published on Nov 25, 2019</h4>
+                <p>
+                    How do you contribute to open source? In this video, I'll describe the easiest way to make a simple
+                    contribution to an open source project -- without using the command line, a text editor, "forking a
+                    repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open
+                    source software projects are typically looking for. As an example, I use submitting a student
+                    solution to a web development exercise from The Odin Project, a free online curriculum for learning
+                    web development with Ruby on Rails. You can find more information about that project at
+                    http://theodinproject.com.
+                </p>
+            </div>
+        </div>
+
+        <aside>
+            <div class="aside-list">
+                <img src="./img/side1.jpg" alt="Side1">
+                <div>
+                    <div>
+                        <h3>P vs. NP and the Computational Complexity Zooimg2:</h3>
+                    </div>
+                    <div>
+                        <div>hackerdashery
+                            </div>
+                        <div>5B views</div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="aside-list">
+                <img src="https://i.ytimg.com/vi/l9RWTMNnvi4/hqdefault.jpg" alt="Side1">
+                <div>
+                    <div>
+                        <h3> This Canadian Genius Created Modern AIimage 3: 
+
+                            </h3>
+                    </div>
+                    <div>
+                        <div>Bloomberg
+                            </div>
+                        <div>3,580,484 views</div>
+                    </div>
+                </div>
+            </div>
+            <div class="aside-list">
+                <img src="https://i.ytimg.com/vi/sJG-rXBbmCc/hqdefault.jpg" alt="Side1">
+                <div>
+                    <div>
+                        <h3>For the Love of Physics - Walter Lewin - May 16, 2011
+                            </h3>
+                    </div>
+                    <div>
+                        <div>Lectures by Walter Lewin
+                            </div>
+                        <div>16,130,993 views</div>
+                    </div>
+                </div>
+            </div>
+            <div class="aside-list">
+                <img src="https://i.ytimg.com/vi/vYquumk4nWw/hqdefault.jpg" alt="Side1">
+                <div>
+                    <div>
+                        <h3>What Is Dynamic Programming and How To Use It
+                            </h3>
+                    </div>
+                    <div>
+                        <div>CS Dojo
+                            </div>
+                        <div>444,634 views</div>
+                    </div>
+                </div>
+            </div>
+            <div class="aside-list">
+                <img src="https://i.ytimg.com/vi/e-5obm1G_FY/hqdefault.jpg" alt="Side1">
+                <div>
+                    <div>
+                        <h3>Learning Functional Programming with JavaScript
+                            </h3>
+                    </div>
+                    <div>
+                        <div>JSConf
+                            </div>
+                        <div>2,217,477 views</div>
+                    </div>
+                </div>
+            </div>
+            <div class="aside-list">
+                <img src="./img/side1.jpg" alt="Side1">
+                <div>
+                    <div>
+                        <h3>ABC</h3>
+                    </div>
+                    <div>
+                        <div>Chanel name</div>
+                        <div>5B views</div>
+                    </div>
+                </div>
+            </div>
+            <div class="aside-list">
+                <img src="./img/side1.jpg" alt="Side1">
+                <div>
+                    <div>
+                        <h3>ABC</h3>
+                    </div>
+                    <div>
+                        <div>Chanel name</div>
+                        <div>5B views</div>
+                    </div>
+                </div>
+            </div>
+            <div class="aside-list">
+                <img src="./img/side1.jpg" alt="Side1">
+                <div>
+                    <div>
+                        <h3>ABC</h3>
+                    </div>
+                    <div>
+                        <div>Chanel name</div>
+                        <div>5B views</div>
+                    </div>
+                </div>
+            </div>
+            <div class="aside-list">
+                <img src="./img/side1.jpg" alt="Side1">
+                <div>
+                    <div>
+                        <h3>ABC</h3>
+                    </div>
+                    <div>
+                        <div>Chanel name</div>
+                        <div>5B views</div>
+                    </div>
+                </div>
+            </div>
+            <div class="aside-list">
+                <img src="./img/side1.jpg" alt="Side1">
+                <div>
+                    <div>
+                        <h3>ABC</h3>
+                    </div>
+                    <div>
+                        <div>Chanel name</div>
+                        <div>5B views</div>
+                    </div>
+                </div>
+            </div>
+        </aside>
     </main>
-    <aside>
+    <footer>
+        <p>&copy;2019 YouTube</p>
+    </footer>
 
-    </aside>
 </body>
+
 </html>
