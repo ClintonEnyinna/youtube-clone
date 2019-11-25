@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
     <title>Youtube Clone</title>
 </head>
+
 <body>
     <header>
-        <span class="hanburger"></span>
-        <h1> 
-            <span>
-                <img src="./img/youtube.svg" alt="Youtube Icon">
-            </span>Youtube</h1>
+        <div class="logo">
+            <span class="hamburger"></span>
+            <img class="youtubeIcon" src="./img/youtube.svg" alt="Youtube Icon">
+            <h1>Youtube</h1>
+        </div>
+
+        <div class="search-container">
+            <form action="#">
+                <input class="input" type="text" placeholder="Search">
+                <button class="formBtn" type="submit"><img class="search" src="./img/search.svg" alt=""></button>
+            </form>
+        </div>
+
         <nav>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><a href=""><img class="upload" src="img/upload.svg" alt=""></a></li>
+                <li><button class="signIn">Sign in</button></li>
             </ul>
         </nav>
     </header>
@@ -29,4 +38,5 @@
 
     </aside>
 </body>
+
 </html>

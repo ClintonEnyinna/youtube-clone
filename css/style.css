@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.logo {
+    display: flex;
+}
+
+.youtubeIcon {
+    width: 50px;
+    margin-right: 4px;
+}
+
+form {
+    display: inline-block;
+    width: 100%;
+    max-width: 640px;
+}
+
+.input {
+    width: 80%;
+    min-width: 200px;
+    height: 29px;
+}
+
+.formBtn {
+    width: 56px;
+    height: 29px;
+}
+
+.search {
+    width: 15px;
+    height: 15px;
+}
+.upload{
+    width: 24px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+nav ul {
+    display: flex;
+}
+.signIn{
+    height: 28px;;
+    background-color: rgb(22, 122, 198);
+    border: none;
+    outline: none;
+    border-radius: 1px;
+    color: white;
+    white-space: nowrap;
+    font-size: 12px;
+}
