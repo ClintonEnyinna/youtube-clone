@@ -133,6 +133,9 @@ aside {
     width: 168px;
     margin-right: 5px;
 }
+.aside-list h3 {
+    font-size: 1rem;
+}
 main>div {
     padding-right:50px;
     /* text-align: center; */
@@ -186,6 +189,7 @@ main>div {
     display: flex;
     justify-content: space-between;
     color: gray;
+    margin-bottom: 10px;
 }
 .video-icons-item {
     display: flex;
