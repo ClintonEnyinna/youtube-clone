@@ -18,13 +18,16 @@ header {
     align-items: center;
     padding: 10px 20px;
     background-color: white;
+    font-family: 'Oswald', sans-serif;
 }
 
 .logo {
     display: flex;
 }
 h1{
-    font-size: 24px;;
+    font-size: 24px;
+    
+
 }
 .hamburger{
     display: flex;
@@ -175,13 +178,17 @@ main>div {
     align-self: flex-end;
 }
 .video-title h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    margin-bottom: 30px;;
 }
 
 .video-icons{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     color: gray;
+}
+.video-icons-item {
+    display: flex;
 }
 
 .video-icon-items{
