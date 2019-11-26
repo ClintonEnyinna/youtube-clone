@@ -80,8 +80,13 @@ ul {
 
 nav ul {
     display: flex;
+    align-items: center;
+    
 }
-
+nav ul li .fas{
+    padding: 10px;
+    color: gray;
+}
 .signIn {
     height: 28px;
     background-color: rgb(22, 122, 198);
@@ -150,6 +155,7 @@ main>div {
 }
 .video-details>div>img {
     margin-right: 10px;
+    border-radius: 50%;
 }
 .video-details h4 {
     margin: 15px 0;
@@ -174,7 +180,7 @@ main>div {
 
 .video-icons{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     color: gray;
 }
 
@@ -183,7 +189,7 @@ main>div {
 }
 
 .video-icon-items div{
-    margin-left: 10px;;
+    margin-left: 25px;;
 }
 
 .description{
