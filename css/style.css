@@ -200,7 +200,14 @@ main>div {
 }
 
 .video-icon-items div{
-    margin-left: 25px;;
+    margin-left: 25px;
+}
+.video-icon-items div button{
+    padding: 0;
+    border: none;
+    background-color: #f9f9f9;
+    font-size: 17px;
+    color: gray;
 }
 
 .description{
