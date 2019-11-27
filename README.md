@@ -17,6 +17,6 @@ Recreation of YouTube's video page from scratch with a responsive layout using f
 * Flaticons for svg.
 * Font Awesome for icons.
 
-## Maintainer
+## Contributors
 * Moin Khan 
 * Clinton Enyinna 
